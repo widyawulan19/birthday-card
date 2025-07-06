@@ -117,7 +117,7 @@
     text-align: justify;
 }
 .bab1-text .bab5-p{
-    border: 1px solid green; 
+    /* border: 1px solid green;  */
     line-height: 1.8;
     font-size: 15px;
     color: #333;
