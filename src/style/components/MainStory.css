@@ -1,0 +1,114 @@
+.main-story-container{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-story-header h2{
+    color: #333;
+}
+
+.main-story-con img{
+    /* border: 1px solid blue; */
+    width: 40vw;
+    height: 70vh;
+}
+.main-story-footer{
+    /* border: 1px solid green; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.main-story-footer .btn-continue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    gap: 5px;
+    border: 1px solid #dddddd00;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.main-story-footer .btn-continue:hover{
+    box-shadow: 0px 4px 8px rgb(0, 0, 0,0.2);
+}
+
+/* MEDIA QUERY  */
+/* ukuran handpone besar  */
+@media (min-width: 576px) and (max-width: 767.98px){
+   .main-story-header{
+    margin-top: 5vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .main-story-header h2{
+    text-align: center;
+    color: #333;
+   }
+
+   .main-story-con{
+    /* border: 1px solid green; */
+    height: 70vh;
+   }
+
+   .main-story-con img{
+    height: 60vh;
+   }
+
+   .main-story-footer{
+    /* padding-top: 10px; */
+    /* border: 1px solid red; */
+   }
+}
+
+/* ukuran handpone kecil  */
+@media (min-width:375px) and (max-width:575px){
+    .main-story-header{
+    /* border: 1px solid red; */
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .main-story-header h2{
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+   }
+
+   .main-story-con img{
+    height: 60vh;
+   }
+
+   .main-story-footer{
+    padding-top: 10px;
+   }
+}
+
+/* HEIGHT BREAKPOIN  */
+@media  (min-height:400px) and (max-height:730px){
+    .main-story-header{
+    /* border: 1px solid red; */
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .main-story-header h2{
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+   }
+
+   .main-story-con img{
+    height: 60vh;
+   }
+
+   .main-story-footer{
+    padding-top: 10px;
+   }
+}
